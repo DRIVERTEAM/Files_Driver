@@ -266,6 +266,16 @@ TextReply = 'حـبـيبـي ولله فـداڪ عمࢪيي💘🙊'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
+if text == 'امير دليم' then
+TextReply = 'هـاذ مـطـوࢪ سـوࢪسـات💘✨'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
+if text == 'امير دليمي' then
+TextReply = 'خـوش مـطوࢪ حـباب🥺💘'
+send(msg.chat_id_, msg.id_,'['..TextReply..']')
+return false
+end
 if text == 'شكو' then
 TextReply = 'ڪلـشي ماڪو ࢪجع نام عمࢪيي☹️💘'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
